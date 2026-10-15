@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 125d3f71c2e7faf4cb375103b484d93e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Tutorial_Demo/Demo_Animators/Demo_Player.controller
+  uploadId: 853928

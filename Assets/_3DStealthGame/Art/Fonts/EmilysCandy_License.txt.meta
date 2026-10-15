@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0dfb82ed400ef4de8a2414413156656e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Art/Fonts/EmilysCandy_License.txt
+  uploadId: 853928

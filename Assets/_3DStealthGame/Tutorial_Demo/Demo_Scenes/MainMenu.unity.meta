@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0afa25d30aeb924895fa68e23be7af2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/MainMenu.unity
+  uploadId: 853928

@@ -1,0 +1,9 @@
+.menuRegularButton {
+}
+
+.menuRegularButton:hover {
+    width: auto;
+    height: auto;
+    transition-duration: 0.1s;
+    scale: 1.05 1.05;
+}

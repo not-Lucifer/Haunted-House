@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aee4b1576bc05a248bffaa75a98393e9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 13804, guid: 0000000000000000e000000000000000, type: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Tutorial_Demo/Demo_UI/Demo_MainMenu.uxml
+  uploadId: 853928

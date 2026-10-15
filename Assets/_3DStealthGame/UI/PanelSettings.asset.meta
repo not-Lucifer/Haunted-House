@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 283caf3134408b84b9820df43b8798cb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/UI/PanelSettings.asset
+  uploadId: 853928

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4d59dc6cc1273e43b943863a799ef8f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Tutorial_Demo/Demo_Prefabs/Key&Doors/Door_Blocker.prefab
+  uploadId: 853928

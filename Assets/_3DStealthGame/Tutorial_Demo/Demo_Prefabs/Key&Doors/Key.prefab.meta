@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 40ee6207ce14a2546ab057bd90962187
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Tutorial_Demo/Demo_Prefabs/Key&Doors/Key.prefab
+  uploadId: 853928

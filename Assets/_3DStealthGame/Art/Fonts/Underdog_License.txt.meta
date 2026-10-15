@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32b6fd30b34ae4407817efe9eac434bf
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Art/Fonts/Underdog_License.txt
+  uploadId: 853928

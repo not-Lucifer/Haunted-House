@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1fb6800688da4d5590067ba9c32b8c1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143848
+  packageName: '3D Stealth Game: Haunted House'
+  packageVersion: 4.1
+  assetPath: Assets/_3DStealthGame/Art/Fonts/IrishGrover_License.txt
+  uploadId: 853928
