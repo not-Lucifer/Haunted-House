@@ -979,6 +979,24 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 291309535}
   m_SourcePrefab: {fileID: 100100000, guid: 57b5e20d97376454d9f3a1c883cee150, type: 3}
+--- !u!1 &2058607303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7672029031363763832, guid: f27bba2ee040ebf4cac9c8663598e17a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3521514672657566777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2058607307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058607303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99529f4d79219b4b942b8c14d551338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WayPointPatrol
 --- !u!4 &2124485637 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2127653386393132783, guid: 57b5e20d97376454d9f3a1c883cee150,
@@ -1051,7 +1069,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7672029031363763832, guid: f27bba2ee040ebf4cac9c8663598e17a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2058607307}
   m_SourcePrefab: {fileID: 100100000, guid: f27bba2ee040ebf4cac9c8663598e17a, type: 3}
 --- !u!1001 &5711892201417053232
 PrefabInstance:
