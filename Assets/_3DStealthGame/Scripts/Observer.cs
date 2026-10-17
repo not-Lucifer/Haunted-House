@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Observer : MonoBehaviour
 {
-    public Transform player;
+    [SerializeField] private Transform player;
     
     bool m_IsPlayerInRange;
 

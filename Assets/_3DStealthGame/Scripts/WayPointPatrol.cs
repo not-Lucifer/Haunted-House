@@ -6,8 +6,8 @@ using UnityEngine.AI;
 public class WayPointPatrol : MonoBehaviour
 {
 
-    public float movespeed = 1.0f;
-    public Transform[] waypoints;
+    [SerializeField] private float movespeed = 1.0f;
+    [SerializeField] private Transform[] waypoints;
     private Rigidbody m_Rigidbody;
     int m_CurrentWaypointIndex;
 

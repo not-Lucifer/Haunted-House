@@ -6,10 +6,10 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     Animator m_Animator;
-    public InputAction MoveAction;
+    [SerializeField] private InputAction MoveAction;
 
-    public float walkSpeed = 1.0f;
-    public float turnSpeed = 20f;
+    [SerializeField] private float walkSpeed = 1.0f;
+    [SerializeField] private float turnSpeed = 20f;
 
     Rigidbody m_Rigidbody ;
     Vector3 m_Movement;
