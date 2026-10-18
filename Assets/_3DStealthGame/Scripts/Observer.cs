@@ -5,7 +5,7 @@ using UnityEngine;
 public class Observer : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    
+    [SerializeField] private GameEnding gameEnding;
     bool m_IsPlayerInRange;
 
     void OnTriggerEnter(Collider other)
@@ -37,7 +37,7 @@ public class Observer : MonoBehaviour
             {
                 if(raycastHit.collider.transform == player)
                 {
-                    Debug.Log("Player was Caught");
+                    gameEnding.CaughtPlayer();
                 }
             }
         }
