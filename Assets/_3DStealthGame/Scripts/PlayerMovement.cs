@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float walkSpeed = 1.0f;
     [SerializeField] private float turnSpeed = 20f;
+    [SerializeField] private AudioSource audioSource;
 
     Rigidbody m_Rigidbody ;
     Vector3 m_Movement;
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_Animator = GetComponent<Animator> ();
         MoveAction.Enable();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate ()
@@ -41,6 +43,18 @@ public class PlayerMovement : MonoBehaviour
         bool hasHorizontalInput = !Mathf.Approximately(horizontal,0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical,0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
-        m_Animator.SetBool("IsWalking",isWalking);  
+        m_Animator.SetBool("IsWalking",isWalking);
+
+        if (isWalking)
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+            else
+            {
+                audioSource.Stop();
+            }
+        }
     }
 }
