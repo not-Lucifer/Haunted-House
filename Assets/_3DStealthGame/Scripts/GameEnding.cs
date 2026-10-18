@@ -70,12 +70,20 @@ public class GameEnding : MonoBehaviour
         {
             if (doRestart)
             {
-                SceneManager.LoadScene("Main");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
             else
             {
-                Application.Quit();
-                Time.timeScale = 0;
+                int nextIndex = SceneManager.GetActiveScene().buildIndex+1;
+                if(nextIndex < SceneManager.sceneCountInBuildSettings)
+                {
+                    SceneManager.LoadScene(nextIndex);
+                }
+                else
+                {
+                    Application.Quit();
+                    Time.timeScale =  0;
+                }
             }
         }
 
