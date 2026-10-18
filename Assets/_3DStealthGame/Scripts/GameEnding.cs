@@ -9,10 +9,13 @@ public class GameEnding : MonoBehaviour
     [SerializeField] private float displayImageDuration = 1f;
     [SerializeField] private GameObject player;
     [SerializeField] private UIDocument uIDocument;
+    [SerializeField] private AudioSource exitAudio;
+    [SerializeField] private AudioSource caughtAudio;
 
 
     bool m_IsPlayerAtExit;
     bool m_IsPlayerCaught;
+    bool m_HasAudioPlayed;
     float m_Timer;
 
     private VisualElement m_EndScreen;
@@ -44,19 +47,24 @@ public class GameEnding : MonoBehaviour
     {
         if (m_IsPlayerAtExit)
         {
-            EndLevel(m_EndScreen,false);
+            EndLevel(m_EndScreen,false,exitAudio);
         }
         else if (m_IsPlayerCaught)
         {
-            EndLevel(m_CaughtScreen,true);
+            EndLevel(m_CaughtScreen,true,caughtAudio);
         }
         
     }
 
-    void EndLevel(VisualElement element , bool doRestart)
+    void EndLevel(VisualElement element , bool doRestart, AudioSource audioSource)
     {
         m_Timer  += Time.deltaTime;
         element.style.opacity = m_Timer/ fadeDuration;
+        if (!m_HasAudioPlayed)
+        {
+            audioSource.Play();
+            m_HasAudioPlayed = true;
+        }
 
         if(m_Timer > fadeDuration + displayImageDuration)
         {
