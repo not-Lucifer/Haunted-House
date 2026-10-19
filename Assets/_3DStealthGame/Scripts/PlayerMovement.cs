@@ -51,10 +51,10 @@ public class PlayerMovement : MonoBehaviour
             {
                 audioSource.Play();
             }
-            else
-            {
-                audioSource.Stop();
-            }
+        }
+        else
+        {
+            audioSource.Stop();
         }
     }
 }
